@@ -5,9 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(new String('=', 82));
-        StringUtil.CentralizarOpcao("Desafio de conectividade de rede");
-        Console.WriteLine(new String('=', 82));
+        StringUtil.Message("Desafio de conectividade de rede");
         int totalElementos;
 
         while (true)
@@ -28,9 +26,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine(new String('=', 82));
-            StringUtil.CentralizarOpcao("MENU");
-            Console.WriteLine(new String('-', 82));
+            StringUtil.Message("MENU");
             Console.WriteLine("| 1 - Adicionar conexão".PadRight(81) + "|");
             Console.WriteLine("| 2 - Verificar conexão entre dois elementos".PadRight(81) + "|");
             Console.WriteLine("| 0 - Sair".PadRight(81) + "|");

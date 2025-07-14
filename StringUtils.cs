@@ -19,5 +19,12 @@ namespace StringUtils
             Console.WriteLine(String.Concat("|", StringUtil.PadCenter(source), "|"));
         }
 
+        public static void Message(string source)
+        {
+            Console.WriteLine(new String('-', 82));
+            StringUtil.CentralizarOpcao(source);
+            Console.WriteLine(new String('-', 82));
+        }
+
     }
 }
